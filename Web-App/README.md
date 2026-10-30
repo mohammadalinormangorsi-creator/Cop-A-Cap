@@ -1,4 +1,4 @@
-# Atrium Access
+# Cop A Cap
 
 Professional login, registration, OTP, and role-based landing pages.
 
