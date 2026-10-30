@@ -1,0 +1,128 @@
+{
+  "orders": [
+    {
+      "id": "CC-SEP25A",
+      "createdAt": "2026-09-25T08:42:00.000Z",
+      "userId": "e7bc09f8-656d-4a64-a283-db7a8faea153",
+      "userEmail": "anne.marie@example.com",
+      "buyer": {
+        "name": "Anne-Marie Santos",
+        "contact": "09171234567",
+        "address": "123 Sample Street, Makati City"
+      },
+      "method": "Maya",
+      "items": [
+        {
+          "id": "la-camo",
+          "name": "LA CAMO",
+          "type": "FITTED",
+          "size": "7 1/4",
+          "qty": 2,
+          "price": 950
+        }
+      ],
+      "total": 1900,
+      "walletBefore": 5500,
+      "walletAfter": 3600
+    },
+    {
+      "id": "CC-MUM3L82O5154",
+      "createdAt": "2026-09-29T03:09:25.152Z",
+      "userId": "e7bc09f8-656d-4a64-a283-db7a8faea153",
+      "userEmail": "anne.marie@example.com",
+      "buyer": {
+        "name": "Anne-Marie Santos",
+        "contact": "09171234567",
+        "address": "123 Sample Street, Makati City"
+      },
+      "method": "GCash",
+      "items": [
+        {
+          "id": "ny-pink",
+          "name": "NY PINK",
+          "type": "FITTED",
+          "size": "7",
+          "qty": 1,
+          "price": 950
+        }
+      ],
+      "total": 950,
+      "walletBefore": 8000,
+      "walletAfter": 7050
+    },
+    {
+      "id": "CC-MVT5HB7J4FA3",
+      "createdAt": "2026-10-29T06:16:27.392Z",
+      "userId": "42e066d3-8b02-4890-b80e-71214ab40dfc",
+      "userEmail": "mohammadalinormangorsi@gmail.com",
+      "buyer": {
+        "name": "Mohammad Alinor M. Mangorsi",
+        "contact": "+639563823645",
+        "address": "Bldg 2 rm 103 blk 10\nMarawi avenue. street condominium maharlika village"
+      },
+      "method": "GCash",
+      "items": [
+        {
+          "id": "iced-out-supreme",
+          "name": "ICED OUT SUPREME",
+          "type": "FITTED",
+          "size": "7 1/4",
+          "qty": 1,
+          "price": 950
+        },
+        {
+          "id": "custom-made-ny",
+          "name": "CUSTOM MADE NY",
+          "type": "FITTED",
+          "size": "Adjustable fit",
+          "qty": 1,
+          "price": 950
+        }
+      ],
+      "total": 1900,
+      "walletBefore": 8000,
+      "walletAfter": 6100
+    },
+    {
+      "id": "CC-MVT6074CEF6B",
+      "createdAt": "2026-10-29T06:31:08.556Z",
+      "userId": "42e066d3-8b02-4890-b80e-71214ab40dfc",
+      "userEmail": "mohammadalinormangorsi@gmail.com",
+      "buyer": {
+        "name": "Mohammad Alinor M. Mangorsi",
+        "contact": "+639563823645",
+        "address": "Bldg 2 rm 103 blk 10\nMarawi avenue. street condominium maharlika village"
+      },
+      "method": "GCash",
+      "items": [
+        {
+          "id": "ny-black",
+          "name": "NY BLACK",
+          "type": "FITTED",
+          "size": "Adjustable fit",
+          "qty": 2,
+          "price": 950
+        },
+        {
+          "id": "new-york-yankees-sky-blue",
+          "name": "NEW YORK YANKEES (SKY BLUE)",
+          "type": "FITTED",
+          "size": "7 1/4",
+          "qty": 2,
+          "price": 950
+        },
+        {
+          "id": "la-camo",
+          "name": "LA CAMO",
+          "type": "FITTED",
+          "size": "Adjustable fit",
+          "qty": 2,
+          "price": 950
+        }
+      ],
+      "total": 5700,
+      "walletBefore": 6100,
+      "walletAfter": 400
+    }
+  ]
+}

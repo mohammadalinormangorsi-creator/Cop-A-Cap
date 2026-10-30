@@ -1,0 +1,98 @@
+{
+  "ch-black": {
+    "price": 950,
+    "available": true
+  },
+  "ch-blue": {
+    "price": 950,
+    "available": true
+  },
+  "custom-made-ny": {
+    "price": 950,
+    "available": true
+  },
+  "iced-out-supreme": {
+    "price": 950,
+    "available": true
+  },
+  "iced-out-supreme-black": {
+    "price": 950,
+    "available": true
+  },
+  "la-camo": {
+    "price": 950,
+    "available": true
+  },
+  "la-green": {
+    "price": 950,
+    "available": true
+  },
+  "mary-rude-awakenings": {
+    "price": 950,
+    "available": true
+  },
+  "new-york-yankees-sky-blue": {
+    "price": 950,
+    "available": true
+  },
+  "new-york-yankees-camo": {
+    "price": 950,
+    "available": true
+  },
+  "ny-black": {
+    "price": 950,
+    "available": true
+  },
+  "ny-pink": {
+    "price": 950,
+    "available": true
+  },
+  "ny-realtree": {
+    "price": 950,
+    "available": true
+  },
+  "ny-royal-blue": {
+    "price": 950,
+    "available": true
+  },
+  "oma-studios": {
+    "price": 950,
+    "available": true
+  },
+  "realtree-sox": {
+    "price": 950,
+    "available": true
+  },
+  "reversed-stitch-rude": {
+    "price": 950,
+    "available": true
+  },
+  "san-diego": {
+    "price": 950,
+    "available": true
+  },
+  "san-francisco": {
+    "price": 950,
+    "available": true
+  },
+  "shohei-ohtani-red": {
+    "price": 950,
+    "available": true
+  },
+  "skull-ny": {
+    "price": 950,
+    "available": true
+  },
+  "triple-la": {
+    "price": 950,
+    "available": true
+  },
+  "triple-la-blue": {
+    "price": 950,
+    "available": true
+  },
+  "triple-ny": {
+    "price": 950,
+    "available": true
+  }
+}

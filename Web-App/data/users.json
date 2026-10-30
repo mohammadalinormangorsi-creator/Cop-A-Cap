@@ -1,0 +1,68 @@
+{
+  "users": [
+    {
+      "id": "e7bc09f8-656d-4a64-a283-db7a8faea153",
+      "fullName": "Anne-Marie Santos",
+      "birthday": "2006-08-15",
+      "address": "123 Sample Street, Makati City",
+      "email": "anne.marie@example.com",
+      "username": "anne.marie@example.com",
+      "mobile": "09171234567",
+      "accessType": "Admin",
+      "passwordHash": "$2a$10$ShIiUiN382NxdEd87Duaa.3MyzqwSw8Ktjtv97ZdqyE3mSGHQy8Zm",
+      "passwordHistory": [
+        "$2a$10$ShIiUiN382NxdEd87Duaa.3MyzqwSw8Ktjtv97ZdqyE3mSGHQy8Zm"
+      ],
+      "createdAt": "2026-08-15T09:44:20.817Z",
+      "verifiedAt": "2026-08-15T09:44:20.817Z"
+    },
+    {
+      "id": "39baffb4-35c9-4305-854c-18b5503f1bd6",
+      "fullName": "O'Connor",
+      "birthday": "2006-08-15",
+      "address": "88 Ayala Avenue, Makati",
+      "email": "oconnor@example.com",
+      "username": "oconnor@example.com",
+      "mobile": "09171234567",
+      "accessType": "Super Admin",
+      "passwordHash": "$2a$10$WNz4SgoncVmS3F.dK5HCDOfTFQmSqWYAaq3jJgJlUMEK5yZvxWESa",
+      "passwordHistory": [
+        "$2a$10$WNz4SgoncVmS3F.dK5HCDOfTFQmSqWYAaq3jJgJlUMEK5yZvxWESa"
+      ],
+      "createdAt": "2026-08-15T09:44:32.465Z",
+      "verifiedAt": "2026-08-15T09:44:32.465Z"
+    },
+    {
+      "id": "ef460741-8fef-4aa2-b59e-663ab3757597",
+      "fullName": "Mohammad Alinor M. Mangorsi",
+      "birthday": "2004-12-07",
+      "address": "Bldg 2 rm 103 blk 10\nMarawi avenue. street condominium maharlika village",
+      "email": "alinormangorsi18@gmail.com",
+      "username": "alinormangorsi18@gmail.com",
+      "mobile": "09563823645",
+      "accessType": "Admin",
+      "passwordHash": "$2a$10$Me2RqUM0H2i1eirmu8GP8urHr8pBxXPZvPtXuMmPqKPgFM5z2rBNm",
+      "passwordHistory": [
+        "$2a$10$Me2RqUM0H2i1eirmu8GP8urHr8pBxXPZvPtXuMmPqKPgFM5z2rBNm"
+      ],
+      "createdAt": "2026-10-29T05:53:54.499Z",
+      "verifiedAt": "2026-10-29T05:53:54.499Z"
+    },
+    {
+      "id": "42e066d3-8b02-4890-b80e-71214ab40dfc",
+      "fullName": "Mohammad Alinor Mangorsi",
+      "birthday": "2004-12-07",
+      "address": "Bldg 2 rm 103 blk 10\nMarawi avenue. street condominium maharlika village",
+      "email": "mohammadalinormangorsi@gmail.com",
+      "username": "mohammadalinormangorsi@gmail.com",
+      "mobile": "09563823645",
+      "accessType": "User",
+      "passwordHash": "$2a$10$McXZVSDx732LDm3Vbnwro.Dyo0tOj3aK6jCnihfnSa.t8EniW4HTG",
+      "passwordHistory": [
+        "$2a$10$McXZVSDx732LDm3Vbnwro.Dyo0tOj3aK6jCnihfnSa.t8EniW4HTG"
+      ],
+      "createdAt": "2026-10-29T05:59:22.078Z",
+      "verifiedAt": "2026-10-29T05:59:22.078Z"
+    }
+  ]
+}
