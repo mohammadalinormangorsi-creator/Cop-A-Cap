@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cop A Cap</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/css/styles.css?v=38" />
+    <link
+      rel="icon"
+      href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='6' fill='%23000000'/%3E%3Ctext x='16' y='22' text-anchor='middle' font-family='Arial Black,Arial,sans-serif' font-size='18' font-weight='700' fill='%23ffffff'%3EC%3C/text%3E%3C/svg%3E"
+    />
+  </head>
+  <body>
+    <div id="app"></div>
+    <div id="toast" class="toast" hidden></div>
+    <div id="loader" class="loader-root" hidden>
+      <div class="loader-card">
+        <div class="spinner" aria-hidden="true"></div>
+        <p class="loader-text">Please wait</p>
+      </div>
+    </div>
+    <div id="modal" class="modal-root" hidden>
+      <div class="modal-backdrop" data-modal-dismiss></div>
+      <div class="modal-card" role="dialog" aria-modal="true" aria-labelledby="modal-title">
+        <div class="modal-icon" id="modal-icon"></div>
+        <h3 id="modal-title"></h3>
+        <p id="modal-message"></p>
+        <div class="modal-actions" id="modal-actions"></div>
+      </div>
+    </div>
+    <div id="privacy-modal" class="modal-root" hidden>
+      <div class="modal-backdrop" data-privacy-close></div>
+      <div class="modal-card modal-scroll privacy-modal" role="dialog" aria-modal="true" aria-labelledby="privacy-title">
+        <button class="modal-close" type="button" data-privacy-close aria-label="Close">&times;</button>
+        <h3 id="privacy-title">Security and Privacy</h3>
+        <div class="privacy-body" id="privacy-body">
+          <h4>Security</h4>
+          <ul>
+            <li><strong>Secure Login Authentication</strong> — The system ensures that users can only log in using valid registered credentials.</li>
+            <li><strong>Password Protection</strong> — User passwords are protected and should not be displayed or stored as plain text.</li>
+            <li><strong>Email OTP Verification</strong> — The system uses a One-Time Password (OTP) sent to the user’s registered email address to provide an additional layer of account security.</li>
+            <li><strong>Login Attempt Protection</strong> — The system limits repeated failed login attempts to help prevent unauthorized access.</li>
+            <li><strong>Session Security</strong> — Active login sessions are protected, and users may be required to log in again when their session expires.</li>
+            <li><strong>Input Validation</strong> — The system validates information entered into the login form to prevent invalid or potentially harmful inputs.</li>
+          </ul>
+          <h4>Privacy</h4>
+          <ul>
+            <li><strong>Personal Information Protection</strong> — User information, such as names, email addresses, and account credentials, is protected.</li>
+            <li><strong>Limited Data Collection</strong> — The system collects only the information necessary for user authentication and system functions.</li>
+            <li><strong>Authorized Access</strong> — Sensitive user information can only be accessed by authorized users or administrators.</li>
+            <li><strong>Data Confidentiality</strong> — Users’ personal information should not be shared with unauthorized individuals.</li>
+            <li><strong>Secure Data Storage</strong> — User information is stored securely in the database with appropriate access restrictions.</li>
+            <li><strong>Privacy Policy</strong> — The system informs users about what information is collected, how it is used, and how it is protected.</li>
+          </ul>
+        </div>
+        <div class="privacy-footer" id="privacy-footer" hidden>
+          <label class="agree-row">
+            <input type="checkbox" id="privacyAgree" />
+            <span>I agree to the Terms of Service and Privacy Policy</span>
+          </label>
+          <div class="error" data-error="privacyAgree"></div>
+          <button class="btn" type="button" id="privacyContinue" data-privacy-continue disabled>Continue</button>
+        </div>
+      </div>
+    </div>
+    <script type="module" src="/js/app.js?v=38"></script>
+  </body>
+</html>
