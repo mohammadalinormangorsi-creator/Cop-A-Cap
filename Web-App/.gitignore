@@ -1,6 +1,5 @@
 node_modules/
-data/*.json
-!data/.gitkeep
+data/.gitkeep
 .env
 .DS_Store
 credentials.txt
